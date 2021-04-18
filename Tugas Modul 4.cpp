@@ -44,3 +44,15 @@ void aplikasi(){
 			cout << "Pilihan anda tidak tersedia";
 	}
 }
+do{
+		aplikasi();
+		cout << "--------------------------------------\n";
+		cout << "Pilih [1] jika iya \n";
+		cout << "Pilih [0 atau lainnya] jika tidak \n";
+		cout << "Ingin membeli tiket lagi : ";
+		cin >> i;
+		cout << "--------------------------------------\n";
+	}while(i == 1);
+	cout << "Terimakasih Telah menggunakan layanan kami ";
+	return 0;
+}
